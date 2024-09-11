@@ -74,9 +74,24 @@ console.log(`TypeScript é uma "linguagem" de programação`);
 
 Simplesmente trocamos as aspas por crases (também chamado de acentos graves).Declarando String's dessa forma, dificilmente será necessário realizar escapes para aspas, tanto dupla quanto simples.
 
-Number 2 1.4
-Function
-
+Number: 2 1.4
+Boolean: true / false
 ## Operadores 
 
 Operadores de atribuição de valor ( = )
+Operador de contatenação: é a junção de uma ou mais Strings
+
+## Estruturas de dados:
+
+## Arrays:
+Uma lista que contém qualquer tipo de dado
+
+## Objetos:
+Atributos e Métodos
+Criação e manipulação de objetos
+Acesso a propriedade de objetos
+
+## Function 
+criar, passar argumento
+executar 
+arrow function / named function
