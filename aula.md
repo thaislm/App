@@ -78,8 +78,10 @@ Number: 2 1.4
 Boolean: true / false
 ## Operadores 
 
-Operadores de atribuição de valor ( = )
-Operador de contatenação: é a junção de uma ou mais Strings
+Operadores de atribuição de valor: ( = )
+Operador de contatenação:( + ) é a junção de uma ou mais Strings 
+Operadores de comparação: (< > == != <= >=)
+
 
 ## Estruturas de dados:
 
@@ -102,6 +104,7 @@ arrow function / named function
 
 ## Condicional 
 - switch
+- if / else
 
 ## Módulos em Node.js:
 

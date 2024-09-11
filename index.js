@@ -1,12 +1,32 @@
-const { select } = require ('@inquirer/prompts')   // require('@inquirer/promps) = ai me devolver um objeto  de dentro do objeto vou querer apenas oque está em {select}
+const { select,input } = require ('@inquirer/prompts')   // require('@inquirer/promps) = ai me devolver um objeto  de dentro do objeto vou querer apenas oque está em {select}
 
-const start = async () => {
-   
-    while (true){
+   let meta = {
+    value: 'Tomar 3L de água por dia',
+    checked: false,
+   }
 
-        const opcao = await select({
-            message: "Menu >",
-            choices: [
+   let metas = [meta]
+
+   const cadastrarMeta = async () => {
+    const meta = await input({message:"Digite a meta:"})
+    
+    if(meta.length == 0) {
+        console.log('A meta está vazia')
+        return
+    }
+
+    metas.push(
+        { value: meta, checked: false}
+    )
+   }
+   const start = async() => {
+
+        while(true ){
+
+
+            const opcao = await select({
+                message: "Menu >",
+                choices: [
                 {
                     name: "Cadastrar meta",
                     value: "cadastrar"
@@ -19,15 +39,18 @@ const start = async () => {
                     name:"Sair",
                     value:"sair"
                 }
-            ]
-        })
 
+                ]
 
-
+            })
+        
+   
+    
 
         switch(opcao){
             case "cadastrar":
-                console.log("vamos cadastrar")
+                await cadastrarMeta()
+                console.log(metas)
                 break
                 case "listar":
                 console.log("vamos listar")
