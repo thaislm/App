@@ -102,3 +102,12 @@ arrow function / named function
 
 ## Condicional 
 - switch
+
+## Módulos em Node.js:
+
+Importação de módulos (require,CommonJS)
+Biblioteca 'inquirer' para criar prompts 
+
+## Programação assíncrona e Promises:
+
+- Uso de funções assíncrona(async/await)
