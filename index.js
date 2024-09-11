@@ -1,16 +1,15 @@
-//arrays,objetos//
 
 let meta = {
-    value: 'Ler um livro todo mês',
-    checked: false,
-    isChecked: () => {}
-} 
+    value: 'ler um livro por mês',
+    checked: true,
+    
+}
+let metas = [
+    meta,
+    {
+        value: "caminhar 20 minutos todos os dias",
+        checked: false
+    }
+]
 
-console.log(meta.value);
-
-
-//function // arrow function
-
-//const criarMeta =() => {}
-
-//function criarMeta (){}
+console.log(metas[1].value)
