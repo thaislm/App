@@ -81,13 +81,14 @@ Boolean: true / false
 Operadores de atribuição de valor: ( = )
 Operador de contatenação:( + ) é a junção de uma ou mais Strings 
 Operadores de comparação: (< > == != <= >=)
+Spread operator: ...
 
 
 ## Estruturas de dados:
 
 ## Arrays:
 Uma lista que contém qualquer tipo de 
-Métodos de array: Métodos são funções de um array (exemplos visto no codigo: push,find,forEach)
+Métodos de array: Métodos são funções de um array (exemplos visto no codigo: push,find,forEach, filter: HOF (Higher Order Functions))
 
 ## Objetos:
 Atributos e Métodos
