@@ -55,15 +55,15 @@
         return
     }
   
-   }
-    respostas.forEach((resposta) => {
+   
+    respostas.forEach((resposta)=>{
         const meta = metas.find((m) => {
             return m.value == resposta
         })
 
         meta.checked = true
     })
-
+}
     mensagem = 'Meta(s) marcadas como concluida(s)'
 
 const metasRealizadas = async () => {
@@ -88,7 +88,7 @@ const metasAbertas = async () =>{
         mensagem = "Não existem metas!"
         return
     }
-    const abertas = metas.filter(() => {
+    const abertas = metas.filter((meta) => {
         return meta.checked != true
     })
 
@@ -197,7 +197,7 @@ const mostrarMensagem = () => {
                     break
                 case "sair":
                 console.log("Até a proxima!")
-                break
+                return
         }
     }
 }

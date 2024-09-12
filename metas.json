@@ -1,7 +1,14 @@
 [
-    {
-
-        "value":"Tomar 3L de água por dia",
-        "checked": false
-    }
+  {
+    "value": "Tomae 3L de agua por dia",
+    "checked": true
+  },
+  {
+    "value": "Fazer exercicio",
+    "checked": false
+  },
+  {
+    "value": "aprender ingles",
+    "checked": true
+  }
 ]
