@@ -86,7 +86,8 @@ Operadores de comparação: (< > == != <= >=)
 ## Estruturas de dados:
 
 ## Arrays:
-Uma lista que contém qualquer tipo de dado
+Uma lista que contém qualquer tipo de 
+Métodos de array: Métodos são funções de um array (exemplos visto no codigo: push,find,forEach)
 
 ## Objetos:
 Atributos e Métodos
